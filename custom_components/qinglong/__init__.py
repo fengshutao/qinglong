@@ -29,7 +29,7 @@ from .const import (
 
 _LOGGER = logging.getLogger(__name__)
 
-PLATFORMS = [Platform.SENSOR, Platform.SELECT, Platform.BUTTON]
+PLATFORMS = [Platform.SENSOR, Platform.SELECT]
 
 
 class QingLongClient:
